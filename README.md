@@ -55,17 +55,17 @@ allure serve build/allure-results
 ----
 
 ### Проект в Jenkins
-> <a target="_blank" href="https://jenkins.autotests.cloud/job/Petstore-API-Auto-Tests/">Ссылка</a>
+> <a target="_blank" href="https://jenkins.autotests.cloud/job/18-yaroslavsqa-petstore/">Ссылка</a>
 
 #### Параметры сборки
 > [!NOTE]
 > Параметры сборки не обязательны
 ```python
-ENVIRONMENT = ['STAGE', 'PREPROD', 'PROD'] # Окружение
+ENVIRONMENT = ['STAGE', 'PREPROD', 'PROD', 'TEST'] # Окружение
 COMMENT = 'some comment' # Комментарий
 ```
 #### Запуск автотестов в Jenkins
-1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/Petstore-API-Auto-Tests/">проект</a>
+1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/18-yaroslavsqa-petstore/">проект</a>
 
 ![jenkins project main page](petstore_api_test_framework/pictures/jenkins_project_main_page.png)
 
@@ -79,41 +79,41 @@ COMMENT = 'some comment' # Комментарий
 ----
 
 ### Allure отчет
-#### <a target="_blank" href="https://jenkins.autotests.cloud/job/Petstore-API-Auto-Tests/10/allure/#">Общие результаты</a>
+#### <a target="_blank" href="https://jenkins.autotests.cloud/job/18-yaroslavsqa-petstore/3/allure/#">Общие результаты</a>
 ![allure_report_overview](petstore_api_test_framework/pictures/allure_report_overview.png)
 
-#### <a target="_blank" href="https://jenkins.autotests.cloud/job/Petstore-API-Auto-Tests/10/allure/#suites/94c8c4ac5fc4c534c54cd08189c43b55/9ff66467c660d9c7/">Результаты прохождения теста</a>
+#### <a target="_blank" href="https://jenkins.autotests.cloud/job/18-yaroslavsqa-petstore/3/allure/#suites/94c8c4ac5fc4c534c54cd08189c43b55/f048b5fbf0a645f5/">Результаты прохождения теста</a>
 
 ![allure_reports_behaviors](petstore_api_test_framework/pictures/allure_reports_suites.png)
 
-#### <a target="_blank" href="https://jenkins.autotests.cloud/job/Petstore-API-Auto-Tests/10/allure/#graph">Графики</a>
+#### <a target="_blank" href="https://jenkins.autotests.cloud/job/18-yaroslavsqa-petstore/3/allure/#graph">Графики</a>
 
 
-![allure_reports_graphs](petstore_api_test_framework/pictures/alluere_reports_graphs_1.png)
-![allure_reports_graphs](petstore_api_test_framework/pictures/alluere_reports_graphs_2.png)
+![allure_reports_graphs](petstore_api_test_framework/pictures/allure_reports_graphs_1.png)
+![allure_reports_graphs](petstore_api_test_framework/pictures/allure_reports_graphs_2.png)
 
 ----
 
 ### Интеграция с Allure TestOps
-#### <a target="_blank" href="https://allure.autotests.cloud/project/3909/dashboards">Ссылка на проект</a>
+#### <a target="_blank" href="https://allure.autotests.cloud/project/4758/dashboards">Ссылка на проект</a>
 
-#### <a target="_blank" href="https://allure.autotests.cloud/project/3909/dashboards">Дашборд с общими показателями тестовых прогонов</a>
+#### <a target="_blank" href="https://allure.autotests.cloud/project/4758/dashboards">Дашборд с общими показателями тестовых прогонов</a>
 
 ![allure_test_ops_dashboards](petstore_api_test_framework/pictures/allure_testops_dashboards.png)
 
-#### <a target="_blank" href="https://allure.autotests.cloud/project/3909/launches">История запуска тестовых наборов</a>
+#### <a target="_blank" href="https://allure.autotests.cloud/project/4758/launches">История запуска тестовых наборов</a>
 
 ![allure_testops_launches](petstore_api_test_framework/pictures/allure_testops_launches.png)
 
-#### <a target="_blank" href="https://allure.autotests.cloud/project/3909/test-cases/28499?treeId=0">Тест кейсы</a>
+#### <a target="_blank" href="https://allure.autotests.cloud/project/4758/test-cases?treeId=0">Тест кейсы</a>
 
 ![allure_testops_suites](petstore_api_test_framework/pictures/allure_testops_suites.png)
 
-#### <a target="_blank" href="https://allure.autotests.cloud/launch/33574/tree/551304/attachments?treeId=0">Тестовые артефакты</a>
+#### <a target="_blank" href="https://allure.autotests.cloud/launch/46413/tree/710884/attachments?treeId=0">Тестовые артефакты</a>
 
 ![allure_testops_suites](petstore_api_test_framework/pictures/allure_testops_test_attachments.png)
 
-#### <a target="_blank" href="https://allure.autotests.cloud/project/3909/test-cases?treeId=0">Ручной запуск авто теста из Allure TestOps</a>
+#### <a target="_blank" href="https://allure.autotests.cloud/project/4758/test-cases/38033?treeId=0">Ручной запуск авто теста из Allure TestOps</a>
 
 ![allure_testops_suites](petstore_api_test_framework/pictures/allure_testops_manual_test_run.png)
 
@@ -124,7 +124,7 @@ COMMENT = 'some comment' # Комментарий
 ----
 
 ### Интеграция с Jira
-> <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1020">Ссылка на проект</a>
+> <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1450">Ссылка на проект</a>
 
 ![jira_project](petstore_api_test_framework/pictures/jira_project.png)
 
